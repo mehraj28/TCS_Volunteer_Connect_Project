@@ -2,7 +2,7 @@ require('dotenv').config();  // <-- must be before any other imports
 
 
 const express = require('express');
-const bcrypt = require('bcrypt');
+const bcrypt = require('bcryptjs');
 const cors = require('cors');
 const path = require('path');
 const db = require('./db');
